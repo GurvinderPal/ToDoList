@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+}
+
+.output,.input{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr ;
+    gap: 15px;
+    align-items: center;
+}
+
+body{
+    margin: 15px;
+    background-color:#181c14;
+    color: #ECDFCC;
+}
+
+.input{
+    margin-bottom: 15px;
+}
+
+button{
+    background-color: #697565;
+    border:none;
+    color: #ECDFCC;
+    padding: 15px;
+    border-radius: 50px;
+}
+
+.editButton{
+    width: 100px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+input{
+    background-color: #697565;
+    color: #ECDFCC;
+    padding: 15px;
+    border:none;
+    border-radius: 50px;
+}
+
+input::placeholder{
+    color: #ECDFCC;
+}
+
+.editElements{
+    margin-right: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
